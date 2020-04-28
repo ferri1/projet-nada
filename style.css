@@ -4,10 +4,14 @@ body{
 .titre{
   color: #ffffff;
   text-align: center;
-  font-size: 3.2em;
+  font-size: 3.5em;
 }
 .suite-titre{
-  color: red;
+  color: #FFFFFF;
   text-align: center;
   font-size: 1.3em;
+}
+h3{
+  color: #fff;
+  font-size: 2em;
 }
