@@ -13,12 +13,12 @@
   </head>
   <body>
     <header>
-          <nav class="nav">
+          <nav>
               <ul>
-                <a href="#home"><span><i class="fas fa-home"></i></span><li class="li">Home</li></a>
-                <a href="#about"><span><i class="fas fa-user-alt"></i></span><li class="li">About</li></a>
-                <a href="#photos"><span><i class="fas fa-images" ></i></span> <li class="li">Photos</li></a>
-                <a href="#contact"><span><i class="far fa-envelope"></i></span><li class="li">Contact</li></a>
+                <a href="#home"><li><i class="fas fa-home"></i>Home</li></a>
+                <a href="#about"><li><i class="fas fa-user-alt"></i>About</li></a>
+                <a href="#photos"><li><i class="fas fa-images" ></i>Photos</li></a>
+                <a href="#contact"><li><i class="far fa-envelope"></i>Contact</li></a>
               </ul>
           </nav>
          <div class="" id="home">
@@ -70,38 +70,69 @@
                 </div>
             </div>
                 <button class="btn">
-                  <i class="fa fa-download" class="icon"></i>Download Resume
+                  <i class="fa fa-download"></i>Download Resume
                 </button>
         </section>
         <br>
          <section>
            <h3>My Price</h3>
-             <div class="table">
-               <div class="table1">
-                 <ul class="table-espace">
-                   <li class="table-espace">Basic</li>
-                   <li class="table-espace">Web Design</li>
-                   <li class="table-espace">Photographey</li>
-                   <li class="table-espace">5 GB Storage</li>
-                   <li class="table-espace">Mail sipport</li>
-                   <li class="table-espace">$ 10<br>
-                    per month</li>
-                   <li class="table-espace"><button type="button" name="button">Sign up</button></li>
-                 </ul>
-               </div>
-               <div class="table1">
-                <ul class="table-espace">
-                  <li class="table-espace">Pro</li>
-                  <li class="table-espace">Web Design</li>
-                  <li class="table-espace">Photographey</li>
-                  <li class="table-espace">50 GB storage</li>
-                  <li class="table-espace">End less Support</li>
-                  <li class="table-espace">$25<br>
-                  per month</li>
-                  <li class="table-espace"><button type="button" name="button">Sign Up</button></li>
-                </ul>
-               </div>
-             </div>
+             <table>
+                <thead>
+                    <tr>
+                       <th>Basic</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                     <tr>
+                       <td>Web Design</td>
+                     </tr>
+                      <tr>
+                        <td>Photographey</td>
+                      </tr>
+                      <tr>
+                         <td>5 GB Storage</td>
+                      </tr>
+                       <tr>
+                         <td>Mail sipport</td>
+                        </tr>
+                        <tr>
+                          <td>$ 10<br>
+                          per month</td>
+                        </tr>
+                        <tr>
+                           <td><button type="button" name="button" class="button">Sign up</button></td>
+                        </tr>
+                   </tbody>
+              </table>
+
+              <table>
+                 <thead>
+                     <tr>
+                        <th>Pro</th>
+                     </tr>
+                   </thead>
+                   <tbody>
+                      <tr>
+                        <td>Web Design</td>
+                      </tr>
+                       <tr>
+                         <td>Photographey</td>
+                       </tr>
+                       <tr>
+                          <td>50 GB Storage</td>
+                       </tr>
+                        <tr>
+                          <td>End less Support</td>
+                         </tr>
+                         <tr>
+                           <td>$25<br>
+                           per month</td>
+                         </tr>
+                         <tr>
+                            <td><button type="button" name="button" class="button">Sign up</button></td>
+                         </tr>
+                    </tbody>
+               </table>
          </section>
         <section>
           <h3>My Reputation</h3>
@@ -114,16 +145,20 @@
               <p class="paragraphe">No one is better than Jane Doe.</p><br>
             </div>
         </section>
+
         <section>
           <h2 id="photos" class="souligne">My Photos</h2>
-          <img src="image/photos3.jpg" alt="">
-          <img src="image/photos4.jpg" alt="">
-          <img src="image/photos5.jpg" alt="">
-          <img src="image/photos7.jpg" alt="">
-          <img src="image/photos3.jpg" alt="">
-          <img src="image/photos6.jpg" alt="">
-          <img src="image/photos8.jpg" alt="">
+          <div class="grid">
+              <img src="image/photos3.jpg" alt="" class="images">
+              <img src="image/photos4.jpg" alt="" class="images">
+              <img src="image/photos5.jpg" alt="" class="images>
+              <img src="image/photos7.jpg" alt="" class="images">
+              <img src="image/photos3.jpg" alt="" class="images">
+              <img src="image/photos6.jpg" alt="" class="images">
+              <img src="image/photos8.jpg" alt="" class="images">
+          </div>
         </section>
+
         <section>
           <h3 id="contact" class="souligne">Cantact Me</h3>
           <div class="">
